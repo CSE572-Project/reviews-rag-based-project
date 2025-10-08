@@ -1,0 +1,39 @@
+{
+  "n_rows_sample": 300000,
+  "missing_title": 18,
+  "missing_text": 0,
+  "class_counts": {
+    "1": 149970,
+    "2": 150030
+  },
+  "duplicate_rate": 2.3333333333333332e-05,
+  "length_overview": {
+    "all": {
+      "n": 300000,
+      "chars_mean": 419.44705666666664,
+      "chars_median": 372.0,
+      "chars_p90": 778.0,
+      "words_mean": 80.91186666666667,
+      "words_median": 72.0,
+      "words_p90": 149.0
+    },
+    "positive": {
+      "n": 150030,
+      "chars_mean": 403.47770445910817,
+      "chars_median": 349.0,
+      "chars_p90": 766.0,
+      "words_mean": 77.58882223555288,
+      "words_median": 68.0,
+      "words_p90": 146.0
+    },
+    "negative": {
+      "n": 149970,
+      "chars_mean": 435.4227978929119,
+      "chars_median": 394.0,
+      "chars_p90": 788.0,
+      "words_mean": 84.23624058144962,
+      "words_median": 76.0,
+      "words_p90": 151.0
+    }
+  }
+}

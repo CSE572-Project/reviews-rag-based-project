@@ -1,0 +1,47 @@
+{
+  "tfidf_unibi_no_sublinear": {
+    "linear_svm": {
+      "accuracy": 0.92723,
+      "precision": 0.9256358128039543,
+      "recall": 0.9290615560045612,
+      "f1": 0.9273455206222107
+    },
+    "logistic_regression": {
+      "accuracy": 0.92587,
+      "precision": 0.9249920140552628,
+      "recall": 0.9268609838558025,
+      "f1": 0.9259255558331252,
+      "roc_auc": 0.9771083266525229
+    }
+  },
+  "tfidf_unibi_sublinear": {
+    "linear_svm": {
+      "accuracy": 0.92766,
+      "precision": 0.9256825377860087,
+      "recall": 0.9299417848640646,
+      "f1": 0.927807273162748
+    },
+    "logistic_regression": {
+      "accuracy": 0.92647,
+      "precision": 0.9252174259953723,
+      "recall": 0.9279012543261248,
+      "f1": 0.9265573966979295,
+      "roc_auc": 0.9776364042882209
+    }
+  },
+  "tfidf_char_wb_3_5": {
+    "linear_svm": {
+      "accuracy": 0.90037,
+      "precision": 0.8979953064715007,
+      "recall": 0.9032948566627323,
+      "f1": 0.9006372857014631
+    },
+    "logistic_regression": {
+      "accuracy": 0.90259,
+      "precision": 0.9014803878536372,
+      "recall": 0.9039150179046552,
+      "f1": 0.9026960612931905,
+      "roc_auc": 0.9643026143868567
+    }
+  }
+}
